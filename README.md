@@ -7,18 +7,15 @@ This project demonstrates the deployment of an enterprise network using a Palo A
 Network Diagram
 <img width="1504" height="688" alt="firewall" src="https://github.com/user-attachments/assets/7bfed913-d4be-432f-aeab-94789aac84e0" />
 
-Device Configuration Summary:
-
+## Device Configuration Summary:
 + Palo Alto Firewall
 - Interfaces:
   - eth1/1 → Office Zone
   - eth1/2 → Web Zone
   - eth1/3 → DB Zone
 - Policies: control inter-zone traffic (DMZ cannot access Local Zone), allow necessary traffic, NAT to Internet
-
 + SW_core
 - Connects Office Zone to Palo Alto firewall with static IP routes
-
 + Servers & PCs
 - Web & DB servers: static IP, ping test
 - Office PCs: access Web & DB servers according to policies
