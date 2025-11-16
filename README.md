@@ -4,8 +4,7 @@ Project Overview
 This project demonstrates the deployment of an enterprise network using a Palo Alto firewall. It includes network segmentation into DMZ, Office, and Local zones to secure Web and DB servers and ensure controlled Internet access.
 
 
-Network Diagram
-<img width="1504" height="688" alt="firewall" src="https://github.com/user-attachments/assets/7bfed913-d4be-432f-aeab-94789aac84e0" />
+Network Diagram <img width="1504" height="688" alt="firewall" src="https://github.com/user-attachments/assets/7bfed913-d4be-432f-aeab-94789aac84e0" />
 
 Device Configuration Summary:
 Palo Alto Firewall
