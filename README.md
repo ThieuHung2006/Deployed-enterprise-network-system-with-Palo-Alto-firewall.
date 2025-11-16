@@ -9,17 +9,17 @@ Network Diagram
 
 Device Configuration Summary:
 
-Palo Alto Firewall
++ Palo Alto Firewall
 - Interfaces:
   - eth1/1 → Office Zone
   - eth1/2 → Web Zone
   - eth1/3 → DB Zone
 - Policies: control inter-zone traffic (DMZ cannot access Local Zone), allow necessary traffic, NAT to Internet
 
-SW_core
++ SW_core
 - Connects Office Zone to Palo Alto firewall with static IP routes
 
-Servers & PCs
++ Servers & PCs
 - Web & DB servers: static IP, ping test
 - Office PCs: access Web & DB servers according to policies
 
@@ -30,3 +30,9 @@ Results / Demo:
 - Devices in DMZ cannot ping Local Zone, ensuring network segmentation and security
 - Internet traffic is NATed through the Palo Alto firewall
 
+## Lessons Learned
+- Gained hands-on experience configuring Palo Alto firewall for inter-zone traffic control and NAT.
+- Learned how to design network segmentation with DMZ, Office, and Local zones to improve security.
+- Practiced configuring routers, static routes, and IP addressing for enterprise network topology.
+- Understood how to test connectivity and verify firewall policies using ping and access checks.
+- Developed skills in documenting network design, configuration, and results for professional reporting.
