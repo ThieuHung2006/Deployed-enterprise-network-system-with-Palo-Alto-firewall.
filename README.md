@@ -8,6 +8,7 @@ Network Diagram
 <img width="1504" height="688" alt="firewall" src="https://github.com/user-attachments/assets/7bfed913-d4be-432f-aeab-94789aac84e0" />
 
 Device Configuration Summary:
+
 Palo Alto Firewall
 - Interfaces:
   - eth1/1 → Office Zone
